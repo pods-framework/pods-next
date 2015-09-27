@@ -2,17 +2,12 @@
 namespace pods\core {
 
 
-    class FieldSet extends \ArrayObject
+    class FieldSet extends \ArrayObject implements FieldSetItem
     {
         /**
-         * @var []FieldSet
+         * @var FieldSet
          */
-        protected $fieldSets;
-
-        /**
-         * @var []Field
-         */
-        protected $fields = array();
+        protected $fieldSets = null;
 
         /**
          * @return FieldSet
@@ -29,7 +24,7 @@ namespace pods\core {
          */
         public function addFieldSet($fieldSet)
         {
-            return array_push($this->fieldSets, $fieldSet );
+            //TODO: implement
         }
 
         /**
