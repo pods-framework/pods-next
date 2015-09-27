@@ -62,7 +62,7 @@ namespace pods\utils\html {
 		 */
 		public function setTagAttribute( $attrName, $attrValue ) {
 			try {
-				return $this->tagAttributes->addTagAttribute( $attrName, $attrValue );
+				return $this->tagAttributes->addAttribute( $attrName, $attrValue );
 			} catch ( \InvalidArgumentException $iae ) {
 				return $this->tagAttributes->overwriteAttribute( $attrName, $attrValue );
 			}
