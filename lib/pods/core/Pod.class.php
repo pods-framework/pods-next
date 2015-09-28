@@ -9,7 +9,7 @@ namespace pods\core {
          * Pod constructor.
          * @param
          */
-        public function __construct()
+        private function __construct()
         {
 
         }
