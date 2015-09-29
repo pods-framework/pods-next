@@ -6,8 +6,9 @@ namespace pods\storage\meta {
     use pods\core\FieldSet;
     use pods\core\Pod;
     use pods\storage\StorageController;
+    use pods\storage\WPCoreStorage;
 
-    abstract class MetaStorage implements StorageController
+    abstract class MetaStorage extends WPCoreStorage implements StorageController
     {
         /**
          * @var string

@@ -6,8 +6,9 @@ namespace pods\storage\table {
     use pods\core\FieldSet;
     use pods\core\Pod;
     use pods\storage\StorageController;
+    use pods\storage\WPCoreStorage;
 
-    abstract class TableStorage implements StorageController
+    abstract class TableStorage extends WPCoreStorage implements StorageController
     {
         /**
          * Stores Fields in the database.
