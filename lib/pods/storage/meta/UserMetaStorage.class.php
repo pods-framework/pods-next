@@ -9,29 +9,31 @@
 namespace pods\storage\meta {
 
 
-    class UserMetaStorage extends MetaStorage {
+	class UserMetaStorage extends MetaStorage {
 
 
-        /**
-         * This function sets the WordPress specific callback
-         * for its purpose
-         * @param $callbackHandler
-         * @return void
-         */
-        public function setCallbackStoreHandler($callbackHandler)
-        {
-            // TODO: Implement setCallbackStoreHandler() method.
-        }
+		/**
+		 * This function sets the WordPress specific callback
+		 * for its purpose
+		 *
+		 * @param $callbackHandler
+		 *
+		 * @return void
+		 */
+		public function setCallbackStoreHandler( $callbackHandler ) {
+			// TODO: Implement setCallbackStoreHandler() method.
+		}
 
-        /**
-         * This function sets the WordPress specific callback
-         * for its purpose
-         * @param $callbackHandler
-         * @return void
-         */
-        public function setCallbackLoadHandler($callbackHandler)
-        {
-            // TODO: Implement setCallbackLoadHandler() method.
-        }
-    }
+		/**
+		 * This function sets the WordPress specific callback
+		 * for its purpose
+		 *
+		 * @param $callbackHandler
+		 *
+		 * @return void
+		 */
+		public function setCallbackLoadHandler( $callbackHandler ) {
+			// TODO: Implement setCallbackLoadHandler() method.
+		}
+	}
 }

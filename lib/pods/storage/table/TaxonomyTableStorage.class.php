@@ -9,8 +9,8 @@
 namespace pods\storage\table {
 
 
-    class TaxonomyTableStorage extends TableStorage{
+	class TaxonomyTableStorage extends TableStorage {
 
 
-    }
+	}
 }

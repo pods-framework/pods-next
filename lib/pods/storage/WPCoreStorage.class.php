@@ -9,8 +9,7 @@
 namespace pods\storage {
 
 
-    abstract class WPCoreStorage
-    {
-        // TODO: implement storage methods that are common to ALL
-    }
+	abstract class WPCoreStorage {
+		// TODO: implement storage methods that are common to ALL
+	}
 }

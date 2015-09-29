@@ -9,8 +9,8 @@
 namespace pods\storage\table {
 
 
-    class ACTTableStorage extends TableStorage{
+	class ACTTableStorage extends TableStorage {
 
 
-    }
+	}
 }

@@ -9,8 +9,8 @@
 namespace pods\storage\table {
 
 
-    class UserTableStorage extends TableStorage{
+	class UserTableStorage extends TableStorage {
 
 
-    }
+	}
 }

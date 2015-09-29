@@ -9,8 +9,8 @@
 namespace pods\storage\table {
 
 
-    class CPTTableStorage extends TableStorage{
+	class CPTTableStorage extends TableStorage {
 
 
-    }
+	}
 }
